@@ -33,7 +33,7 @@ public:
 
     int setupIptablesHooks();
 
-    int enableBandwidthControl();
+    int enableBandwidthControl(bool force);
     int disableBandwidthControl();
     int enableDataSaver(bool enable);
 

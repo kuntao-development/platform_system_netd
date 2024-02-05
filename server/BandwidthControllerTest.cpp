@@ -200,7 +200,7 @@ TEST_F(BandwidthControllerTest, TestEnableBandwidthControl) {
             "COMMIT\n";
     // clang-format on
 
-    mBw.enableBandwidthControl();
+    mBw.enableBandwidthControl(false);
     expectSetupCommands(expectedClean, expectedAccounting);
 }
 
